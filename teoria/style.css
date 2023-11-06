@@ -1,0 +1,192 @@
+body {
+    padding: 20px;
+}
+
+p {
+    color: deeppink;
+}
+
+img {
+    width: 15%;
+    width: 150px;
+    border: 1px solid #da2ddd;
+    padding: 15px;
+    margin: 20px;
+}
+
+img {
+    width: 15%;
+    width: 150px;
+    border: 1px solid #da2ddd;
+    padding: 15px;
+    margin: 20px;
+}
+
+#titulo-principal {
+    font-family: 'Courier New';
+    background-color: rgb(73, 209, 243);
+    color: blueviolet;
+}
+
+.meu-paragrafo {
+    background-color: rgb(225, 247, 101);
+    color: blueviolet;
+    padding: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Elementos da página, listas */
+* {
+    font-family: Arial;
+}
+
+h1 {
+    border-bottom: 1px solid rgb(253, 225, 62);
+}
+
+/* cores */
+.nome-da-cor {
+    color: pink;
+}
+
+.hexa {
+    color: #c2f0b9;
+    background-color: rgb(243, 209, 13);
+}
+
+.rgb {
+    color: rgb(rgb(18, 28, 168));
+}
+
+
+
+.tamanho-fonte-grande {
+    font-size: 64px;
+}
+
+.tamanho-fonte-pequena {
+    font-size: 12px;
+}
+
+.peso-fonte { /*colocar em negrito*/
+    font-weight: 900;
+}
+
+.peso-italico {
+    font-style: italic;
+}
+
+.box-model {
+    width: 150px;
+    height: 50px;
+    border: 1px solid #da2ddd;
+    padding: 15px;
+    margin: 20px;
+}
+
+/* propriedades de texo */
+.alinhamento {
+    text-align: center;
+}
+
+.transform-minuscula {
+    text-transform: lowercase;
+}
+
+.seletor-de-classe {
+    text-transform: uppercase;
+  }
+
+/* links */
+
+.decoration { /*TIRAR O ANDERLINE*/
+    text-decoration: none;
+}
+
+.visitado:visited{ /*COLORIR QUANDO JA FOR VISITADO*/
+    color: orange;
+}
+
+.estilo-hover:hover { /*COLORIR QUANDO PASSAR A ETA DO MOUSE EM CIMA*/
+    background-color: #02fcd2;
+}
+
+/*links em button*/
+.btn {
+    background-color: rgb(24, 240, 240);       /*cor de fundo*/
+    border: 3px solid #e912a1;         /*espessura e cor da borda*/
+    border-radius: 5px;                 /*curvatura da borda*/
+    color: rgb(0, 0, 0);                    /*cor do texto*/
+    text-decoration: none;            /*tirar o sublinhado*/
+    padding: 15px 7px;                   /*spacamento interno da caixa*/
+    margin: 20px;                /*margem superior*/
+    display: block;                /**/
+    width: 150px;                 /*largura do botão*/
+    transition: 0,5s;
+    text-align: center;
+}
+
+.btn:hover {  /*hover serve pra prencher quando passar por cima, ai coloquei pra preencher da mesma cor da margem*/
+    background-color: #e912a1;
+    font-weight: 900;
+}
+
+/*listas*/
+.sem-estilo {  /*pra tirar a bolinha dos itens da lista*/
+    list-style: none;
+}
+
+/*display*/
+.inline {
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    margin: 5px;
+}
+
+.bloco {
+    display: block;
+}
+
+.elemento-fixo {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #113341;
+    padding: 15px;
+    border-bottom: 2px solid #da2ddd;
+    color: white;
+    font-family: 'Courier New';
+}
+
+h2 {
+    color: red;
+}
+
+.titulo {
+    color: blue;
+}
+
+#titulo-favorito {
+    color: purple;
+}
+
+/* first child /primeiro filho*/
+.primeiro-elemento p:first-child {
+    color: purple;
+    font-weight: 900;
+}
+
+.primeira-letra::first-letter {
+    font-size: 40px;
+    color: #e912a1;
+    background-color: aqua;
+    padding: 4px;
+}
+
+/*IMPORTANT*/
+h2 {
+    color: rgb(94, 248, 47) !important;
+}
